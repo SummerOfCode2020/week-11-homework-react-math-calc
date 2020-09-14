@@ -10,9 +10,9 @@ class Calculator extends React.Component{
      }
  }
  onFirstOperandChange = (event) => {
-     const newValue = event.target.value;
+     const firstOperand = event.target.value;
      this.setState({
-         firstOperand: newValue
+         firstOperand
      });
  }
 onSecondOperandChange = (event) => {
